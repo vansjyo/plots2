@@ -53,9 +53,10 @@ GEM
     ansi (1.5.0)
     arel (9.0.0)
     ast (2.4.0)
-    authlogic (4.4.2)
-      activerecord (>= 4.2, < 5.3)
-      activesupport (>= 4.2, < 5.3)
+    authlogic (5.0.1)
+      activemodel (>= 5.2, < 6.1)
+      activerecord (>= 5.2, < 6.1)
+      activesupport (>= 5.2, < 6.1)
       request_store (~> 1.0)
       scrypt (>= 1.2, < 4.0)
     authlogic-oid (1.0.4)
@@ -149,8 +150,6 @@ GEM
       railties (>= 3.1)
     hashie (3.6.0)
     highline (2.0.0)
-    hoe (3.17.0)
-      rake (>= 0.8, < 13.0)
     http (3.3.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
@@ -161,7 +160,7 @@ GEM
     http-form_data (2.1.1)
     http_accept_language (2.1.1)
     http_parser.rb (0.6.0)
-    i18n (1.5.3)
+    i18n (1.6.0)
       concurrent-ruby (~> 1.0)
     i18n-js (3.2.1)
       i18n (>= 0.6.6)
@@ -503,7 +502,7 @@ PLATFORMS
 
 DEPENDENCIES
   activerecord-session_store
-  authlogic (= 4.4.2)
+  authlogic (= 5.0.1)
   authlogic-oid
   byebug
   ci_reporter_test_unit
