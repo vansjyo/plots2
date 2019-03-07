@@ -42,6 +42,7 @@
 //= require editor.js
 //= require like.js
 //= require main_image.js
+//= require typeahead.js/dist/typeahead.bundle.js
 //= require restful_typeahead.js
 //= require users.js
 //= require searchform.js
